@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -236,4 +237,242 @@
     <!-- Main JavaScript file -->
     <script src="script.js?v=20240502001"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Standard cache control -->
+    <meta http-equiv="Cache-Control" content="max-age=3600">
+    
+    <title>Careers - Advantis</title>
+    <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+    
+    <!-- Critical CSS for layout stability, even if stylesheet fails to load -->
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            background-color: #ffffff;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .header {
+            background-color: #ffffff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            height: 80px;
+        }
+        .logo img {
+            max-height: 50px;
+            width: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        h1, h2, h3 {
+            color: #2C3E50;
+        }
+        a {
+            color: #0066CC;
+            text-decoration: none;
+        }
+        .btn {
+            display: inline-block;
+            background: #0066CC;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .footer {
+            background: #f8f9fa;
+            padding: 80px 0 30px;
+        }
+    </style>
+    
+    <!-- Main stylesheet with a fixed version instead of timestamp -->
+    <link rel="stylesheet" href="style.css?v=fixed-20240502">
+    
+    <!-- External fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/Advantis-Logo-200.png" alt="Advantis Logo">
+                </a>
+            </div>
+            
+            <!-- Navigation for desktop -->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="services.html" class="nav-link">Services</a>
+                        <div class="dropdown-content">
+                            <a href="services.html#rpm" class="dropdown-item">Remote Patient Monitoring</a>
+                            <a href="services.html#apcm" class="dropdown-item">Advanced Primary Care Management</a>
+                            <a href="services.html#ccm" class="dropdown-item">Chronic Care Management</a>
+                            <a href="services.html#telehealth" class="dropdown-item">Telehealth</a>
+                            <a href="services.html#coordination" class="dropdown-item">Care Coordination</a>
+                            <a href="services.html#preventative" class="dropdown-item">Preventative Care</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+                    <li class="nav-item"><a href="careers.html" class="nav-link active">Careers</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link contact-btn">Contact Us</a></li>
+                </ul>
+                
+                <!-- Mobile menu toggle -->
+                <button class="mobile-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Careers Section -->
+    <section class="careers-section" style="padding: 120px 0 60px;">
+        <div class="container">
+            <h1 style="color: var(--primary-color); text-align: center; margin-bottom: 2rem;">Join Our Team</h1>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 2rem;">
+                    At Advantis, we're on a mission to transform healthcare through innovative technology and compassionate care. We're looking for talented individuals who share our passion for improving patient outcomes and making quality healthcare accessible to all.
+                </p>
+                <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 2rem;">
+                    Our team members enjoy competitive benefits, opportunities for professional growth, and the satisfaction of knowing their work makes a real difference in people's lives.
+                </p>
+                <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 3rem;">
+                    To explore career opportunities with Advantis, please reach out to us at:
+                    <br>
+                    <a href="mailto:recruitment@advantis.care" style="color: var(--primary-color); font-weight: 600; text-decoration: none;">recruitment@advantis.care</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Openings Section - Added for more content -->
+    <section class="current-openings" style="padding: 60px 0;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Current Openings</h2>
+            <div class="job-listings" style="max-width: 800px; margin: 0 auto;">
+                <div class="job-card" style="padding: 2rem; margin-bottom: 2rem; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                    <h3>Remote Patient Care Coordinator</h3>
+                    <p><strong>Location:</strong> Remote (US-based)</p>
+                    <p><strong>Type:</strong> Full-time</p>
+                    <p>We are seeking a compassionate and organized Remote Patient Care Coordinator to join our team. In this role, you'll be responsible for monitoring patient data, coordinating with healthcare providers, and ensuring patients receive timely and effective care.</p>
+                    <a href="mailto:recruitment@advantis.care?subject=Remote Patient Care Coordinator Application" class="btn btn-primary" style="margin-top: 1rem;">Apply Now</a>
+                </div>
+                
+                <div class="job-card" style="padding: 2rem; margin-bottom: 2rem; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                    <h3>Healthcare Software Developer</h3>
+                    <p><strong>Location:</strong> New York, NY (Hybrid)</p>
+                    <p><strong>Type:</strong> Full-time</p>
+                    <p>Join our technology team to help develop and improve our patient monitoring platforms. This role requires experience with healthcare software development, API integration, and a passion for creating user-friendly solutions.</p>
+                    <a href="mailto:recruitment@advantis.care?subject=Healthcare Software Developer Application" class="btn btn-primary" style="margin-top: 1rem;">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <img src="images/Advantis-Logo-200.png" alt="Advantis Logo" class="footer-logo">
+
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#rpm">Remote Patient Monitoring</a></li>
+                        <li><a href="services.html#apcm">Advanced Primary Care Management</a></li>
+                        <li><a href="services.html#ccm">Chronic Care Management</a></li>
+                        <li><a href="services.html#telehealth">Telehealth</a></li>
+                        <li><a href="services.html#coordination">Care Coordination</a></li>
+                        <li><a href="services.html#preventative">Preventative Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Information</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 1221 Avenue of Americas, Suite 13B</li>
+                        <li>New York, NY 10020</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+13475242989">(347) 524-2989</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@advantis.care">info@advantis.care</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Form Column -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <form class="footer-contact-form">
+                        <input type="text" placeholder="Name" required>
+                        <input type="text" placeholder="Company" required>
+                        <input type="email" placeholder="Email" required>
+                        <select required>
+                            <option value="">Where did you hear about us?</option>
+                            <option value="search">Search Engine</option>
+                            <option value="social">Social Media</option>
+                            <option value="referral">Referral</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <textarea placeholder="Message" required></textarea>
+                        <div class="g-recaptcha" data-sitekey="6LepWCorAAAAACKOTeqIfRkulqMHijMDkpvqm8fO"></div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                    <p class="form-disclaimer">This site is protected by reCAPTCHA and the Google 
+                        <a href="https://policies.google.com/privacy">Privacy Policy</a> and 
+                        <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Advantis Care Corp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
+    <!-- Main JavaScript file with a fixed version instead of timestamp -->
+    <script src="script.js?v=fixed-20240502"></script>
+</body>
+>>>>>>> Stashed changes
 </html> 
